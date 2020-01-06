@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "The Wild Breath of Zelda";
+}
+
+#background {
+    height: 100vh;
+    background-image: url("images/bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text {
+    float: left;
+    padding: 4%;
+    width: 20%;
+}
+
+.text p {
+    position: fixed;
+    top: 20vh;
+    left: 18vh;
+    width: 40vh;
+}
+
+#parch {
+    height: 80vh;
+    width: 60vh;
+}
+
+.continue {
+    font-size: 30px;
+    -webkit-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    transition: font-size .5s ease;
+}
+
+.continue:hover {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.cart {
+    width: 40vh;
+    height: 55vh;
+    margin: 7vh;
+    transition-property: width, height, margin;
+    transition-duration: 1s;
+}
+
+.cart:hover {
+    width: 45vh;
+    height: 60vh;
+    margin: 2vh;
+}
+
+#footer {
+    font-size: 5vh;
+    position: fixed;
+    top: 80vh;
+    left: 80vh;
+}
+
+#boat {
+    position: fixed;
+    top: 50vh;
+    left: 110vh;
+    width: 20vh;
+    height: 15vh;
+    transition-property: width, height;
+    transition-duration: 1s;
+}
+
+#boat:hover {
+    cursor: pointer;
+    width: 25vh;
+    height: 20vh;
+}
+
+#sleep {
+    position: fixed;
+    top: 20vh;
+    left: 68vh;
+    width: 20vh;
+    height: 15vh;
+    transition-property: width, height;
+    transition-duration: 1s;
+}
+
+#sleep:hover {
+    cursor: pointer;
+    width: 25vh;
+    height: 20vh;
+}
+
+#pech {
+    position: fixed;
+    top: 70vh;
+    left: 90vh;
+    width: 20vh;
+    height: 15vh;
+}
+
+#foot {
+    transform: scaleY(-1);
+    position: fixed;
+    top: 35vh;
+    left: 100vh;
+    width: 20vh;
+    height: 15vh;
+    transition-property: width, height;
+    transition-duration: 1s;
+}
+
+#foot:hover {
+    cursor: pointer;
+    width: 25vh;
+    height: 20vh;
+}
+
+.fightCard {
+    width: 30vh;
+    height: 45vh;
+    margin: 7vh;
+}
+
+.fi {
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+
+.fi:hover {
+    cursor: pointer;
+    font-size: 10vh;
+}
+
+#bag {
+    float: right;
+}
+
+#run {
+    position: fixed;
+    left: 55%;
+}
+
+#hp {
+    position: fixed;
+    left: 55%;
+    text-align: center;
+}
+
+#fight {
+    font-size: 7vh;
+    border: solid gray 2px;
+    background-color: lightgray;
+    position: fixed;
+    top: 60vh;
+    left: 70vh;
+    width: 80vh;
+    height: 15vh;
+    padding: 5%;
+}
+
+.perso {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 65vh;
+    height: 70vh;
+    transition-property: width, height;
+    transition-duration: 1s;
+}
+
+#follow:hover {
+    cursor: pointer;
+    width: 70vh;
+    height: 75vh;
+}
+
+#canon {
+    position: fixed;
+    top: 40vh;
+    left: 70vh;
+    width: 20vh;
+    height: 15vh;
+    transition-property: width, height;
+    transition-duration: 1s;
+}
+
+#canon:hover {
+    cursor: pointer;
+    width: 25vh;
+    height: 20vh;
+}
+
+#nostop {
+    transform: scaleY(-1);
+    position: fixed;
+    top: 70vh;
+    left: 80vh;
+    width: 40vh;
+    height: 30vh;
+    transition-property: width, height;
+    transition-duration: 1s;
+}
+
+#nostop:hover {
+    cursor: pointer;
+    width: 45vh;
+    height: 35vh;
+}
+
+#dude:hover {
+    cursor: pointer;
+    width: 70vh;
+    height: 75vh;
+}
+
+#garde {
+    transform: scaleY(-1);
+    position: fixed;
+    top: 70vh;
+    left: 80vh;
+    width: 40vh;
+    height: 30vh;
+    transition-property: width, height;
+    transition-duration: 1s;
+}
+
+#garde:hover {
+    cursor: pointer;
+    width: 45vh;
+    height: 35vh;
+}
+
+#panth {
+    position: fixed;
+    top: 10vh;
+    left: 80vh;
+    width: 30vh;
+    height: 30vh;
+    transition-property: width, height;
+    transition-duration: 1s;
+}
+
+#panth:hover {
+    cursor: pointer;
+    width: 35vh;
+    height: 35vh;
+}
+
+#gavel {
+    position: fixed;
+    top: 10vh;
+    left: 80vh;
+    width: 30vh;
+    height: 30vh;
+    transition-property: width, height;
+    transition-duration: 1s;
+}
+
+#gavel:hover {
+    cursor: pointer;
+    width: 35vh;
+    height: 35vh;
+}
+
+#cauldron {
+    position: fixed;
+    top: 10vh;
+    left: 80vh;
+    width: 30vh;
+    height: 30vh;
+    transition-property: width, height;
+    transition-duration: 1s;
+}
+
+#cauldron:hover {
+    cursor: pointer;
+    width: 35vh;
+    height: 35vh;
+}
+
+#sword {
+    transform: scaleY(-1);
+    position: fixed;
+    top: 50vh;
+    left: 100vh;
+    height: 40vh;
+    width: 30vh;
+    transition-property: width, height;
+    transition-duration: 1s;
+}
+
+#sword:hover {
+    cursor: pointer;
+    height: 45vh;
+    width: 35vh;
+}
+
+#hp {
+    text-align: center;
+}
+
+#ear {
+    position: fixed;
+    top: 10vh;
+    left: 80vh;
+    width: 30vh;
+    height: 30vh;
+    transition-property: width, height;
+    transition-duration: 1s;
+}
+
+#ear:hover {
+    cursor: pointer;
+    width: 35vh;
+    height: 35vh;
+}
