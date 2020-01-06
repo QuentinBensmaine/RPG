@@ -132,7 +132,6 @@ window.onload = function() {
 
     page1 = function() {
         character = new perso(persoChoisi, hp, att, def, xp);
-        console.log(character.getName());
         console.log(character.getHp());
         console.log(character.getAtt());
         console.log(character.getDef());
@@ -498,13 +497,10 @@ window.onload = function() {
             let att = document.getElementById("att");
             att.onclick = function() {
                 degats = getRandom(1, character.getAtt()) - drakon.def;
-                console.log(degats);
                 drakon.hp = drakon.hp - degats;
                 fight.innerHTML = "Vous lui avez inflige " + degats + " pts de degats <button id=\"kk\">OK</button>";
-                console.log(drakon.getHp());
                 document.getElementById("kk").onclick = function() {
                     degats = getRandom(1, drakon.getAtt()) - character.def;
-                    console.log(degats);
                     character.hp = character.hp - degats;
                     fight.innerHTML = "Il vous inflige " + degats + " pts de degats <button id=\"kk\">OK</button>";
                     document.getElementById("kk").onclick = function() {
