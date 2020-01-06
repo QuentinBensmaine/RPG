@@ -6,4 +6,4 @@ C'est également pour cette raison qu'il y a beaucoup d'images "inutilisées" da
 
 J'aurais voulu faire quelque chose de plus poussé avec de la musique, une meilleure mise en page etc mais j'ai mal géré mon temps donc je le rajouterai surement dans les semaines à venir, surveillez ce repo si ça vous intéresse.
 
-*(Je ne trouve pas pourquoi mais GitHub n'arrive pas à trouver certaines de mes images en .png, j'ai d'abord cru que c'etait car certaines d'entre elles étaient en fait en .PNG mais après un réupload en .png ça n'a rien changé. Je ne comprends vraiment pas d'autant plus qu'en local ça marche parfaitement bien)*
+
